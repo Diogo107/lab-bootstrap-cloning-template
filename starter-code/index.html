@@ -8,10 +8,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="/starter-code/style/index.css">
+
     <title>Significa</title>
   </head>
   <body>
-    <div class="container-fluid m-4">
+    <div class="container-fluid">
       <div class="fixed-top">
         <nav class="p-2 ml-2 navbar navbar-expand-lg navbar-light bg-light bg-white">
           <div class="col-1 mr-auto p-2 bd-highlight">
@@ -66,13 +68,13 @@
           </div>
         </nav>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-5">
-            <div class="row">
-                <h1>Your go-to <br />digital agency</h1>
+            <div class="row your">
+                <h1 class="d-flex align-items-center">Your go-to <br />digital agency</h1>
             </div>
-            <div class="row">
+            <div class="row pb-5">
               <p>
                 Significa is a digital design-led agency mainly focused on Product Development.
               </p>
@@ -116,11 +118,12 @@
 
               
         </div>
-        <div class="row text-white bg-dark">
-          <div class="col-3">
-            We build digital products
+        <div class="row your d-flex justify-content-center">
+          <div class="col-3 ">
+            <h4>We build digital products</h4>
           </div>
-          <div class="col-9">
+          <div class="col-1"></div>
+          <div class="col-5">
             Having a design-led approach to what we do defines who we are. We take on products from
             inception to launch, from business model to people's pocket, from wireframe to
             continuous deployment.
@@ -129,8 +132,8 @@
         <div class="row">
           <div class="col"></div>
           <div class="col">
-            <p>Strategy</p>
-            <ul>
+            <p class= "d-flex justify-content-center mb-4 ">Strategy</p>
+            <ul class="list">
               <li>UX research</li>
               <li>Business strategy</li>
               <li>Brand strategy</li>
@@ -139,7 +142,7 @@
             </ul>
           </div>
           <div class="col">
-            <p>Product design</p>
+            <p class= "d-flex justify-content-center mb-4 ">Product design</p class= "d-flex justify-content-center">
             <ul>
               <li>User experience</li>
               <li>User interface</li>
@@ -149,7 +152,7 @@
             </ul>
           </div>
           <div class="col">
-            <p>Development</p>
+            <p class= "d-flex justify-content-center mb-4 ">Development</p>
             <ul>
               <li>Development Front-end engineering</li>
               <li>Web-app development</li>
@@ -160,54 +163,61 @@
           <div class="col"></div>
         </div>
         
-        <div>View services</div>
-          <div class="col-4">
-            What's new on Significa Labs
+        <div class="d-flex justify-content-center pb-5"><a href="#top">View services</a></div>
+          
+        <div class="row build text-white">
+          <div class="col-5">
+            <h6>What's new on Significa Labs</h6>
           </div>
-          <div class="col-8">
-            <div>
-              Automating releases for UI Kits — How to automate release logs and builds for your
-              style guides Tutorial on Medium
+          <div class="col-7 m-t-4">
+            <div class=" mb-4 border-bottom">
+              <p>Automating releases for UI Kits — How to automate release logs and builds for your
+              style guides </p>
+              <p>Tutorial on Medium</p>
             </div>
-            <div>
-              An iceberg sank the Titanic — But what’s that got to do with text hierarchy? Article
-              on Medium
+            <div class=" mb-4 border-bottom">
+              <p>An iceberg sank the Titanic — But what’s that got to do with text hierarchy? </p>
+              <p>Article on Medium</p>
             </div>
-            <div>
-              On creating synergies — Sharing without compromising our identity Article on Medium
+            <div class=" mb-4 border-bottom">
+              <p>On creating synergies — Sharing without compromising our identity </p>
+              <p>Article on Medium</p>
             </div>
-            <div>
-              Enter the Lab
+            <div class=" mb-4">
+              <a href="#top">Enter the Lab</a>
             </div>
           </div>
-          <div class="row">
+          
+        </div>
+        
+        
+        
+          <div class="row your">
             <div class="col-4">
-              Drop by, we're hiring.
+              <h4>Drop by,<br> we're hiring.</h4>
             </div>
-            <div class="col-8">
-              We are an open-minded, open-hearted team that loves the thrill of creating exciting
+            <div class="col-6">
+              <p class= " pb-4">We are an open-minded, open-hearted team that loves the thrill of creating exciting
               new projects. Drop us a line if you’re passionate and talented to do everything you
-              set your mind to. View careers
+              set your mind to.</p> 
+              <a href="#top">View careers</a>
+              
             </div>
           </div>
-          <div class="row">
-              <div class="col-3 img-thumbnail">
-                <img class="figure-img img-fluid rounded" src=".../../images/4.png " alt="" />
-              </div>
-
-              <div class="col-3 img-thumbnail">
-                <img class="figure-img img-fluid rounded" src=".../../images/5.png" alt="" />
-              </div>
-
-              <div class="col-3 img-thumbnail">
-                <img class="figure-img img-fluid rounded" src=".../../images/6.png" alt="" />
-              </div>
-
-          
-          
-        <div class="row">
+          <div class="row img pb-5">
+            <div class="col-sm">
+              <img src=".../../images/4.png " alt="" />
+            </div>
+            <div class="col-sm">
+              <img src=".../../images/5.png" alt="" />
+            </div>
+            <div class="col-sm">
+              <img src=".../../images/6.png" alt="" />
+            </div>
+          </div>
+        <div class="row pt-5 end">
           <div class="col">
-            Legal © 2019
+            <p><ins>Legal</ins> © 2019</p>
           </div>
           <div class="col"></div>
           <div class="col">
